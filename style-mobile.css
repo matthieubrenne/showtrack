@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+}
+
+.footer-section h2 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+  word-spacing: 5px;
+}
+
+footer h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: rgba(128, 128, 128, 0.664);
+  margin-top: 10px;
+}
+
+footer p {
+  color: rgba(128, 128, 128, 0.664);
+}
+
+.footer-section {
+  text-align: left;
+  padding: 20px 20px 20px 0;
+  word-spacing: 5px;
+}
+
+.copyright {
+  padding-bottom: 20px;
+  color: rgb(196, 196, 196);
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+article {
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px 15px;
+  font-family: "Lato", sans-serif;
+}
+
+article p {
+  font-family: "Lato", sans-serif;
+  color: rgb(82, 81, 81);
+  font-weight: 600;
+  text-align: left;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 0.9rem;
+  line-height: 1.5em;
+}
+
+article img {
+  max-width: 100%;
+}
+
+.article-img,
+.blog-img {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.article-btn,
+.main-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.main-btn-1 {
+  background-color: white;
+  color: black;
+  border: 1px solide black;
+  padding: 15px 15px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+section {
+  position: relative;
+  border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+  margin: 30px auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  line-height: 1.6rem;
+  margin: 20px 15px;
+}
+
+section h3,
+.section-web h3,
+.banner h3 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -35px;
+  background-color: white;
+  width: 150px;
+}
+
+.download {
+  background-image: url(./img/pexels-photo-276549-e1518168651468-1.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin: 20px 15px;
+  padding: 40px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+.download a {
+  text-decoration: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 0;
+  text-decoration: none;
+  color: white;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  width: 60%;
+  margin: 3px auto;
+}
+
+.img-title {
+  margin: 20px;
+}
+
+.img-title img {
+  max-width: 100%;
+}
+
+.main-button {
+  display: flex;
+  justify-content: center;
+}
+
+.article-blog p {
+  margin: 30px auto;
+}
+
+.blog-signature {
+  margin-bottom: 40px;
+}
+
+.website-section {
+  display: flex;
+}
+
+.icon-f,
+.icon-l,
+.icon-p,
+.icon-t {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.icon-t {
+  background-color: #00ACEE;
+}
+
+.icon-f {
+  background-color: #39569c;
+}
+
+.icon-l {
+  background-color: #0072b1;
+}
+
+.icon-p {
+  background-color: #c8232c;
+}
+
+.section-web h3 {
+  background-color: white;
+  width: 200px;
+  padding: 0 auto;
+}
+
+.banner h3 {
+  background-color: white;
+  width: 100px;
+  padding: 0 auto;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.post {
+  display: flex;
+  justify-content: left;
+  margin: 5px auto;
+  border-bottom: 1px solid rgba(177, 177, 177, 0.5);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 90%;
+}
+
+.post-5 {
+  display: flex;
+  justify-content: left;
+  margin: 5px auto;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 90%;
+}
+
+.post-descr {
+  margin-left: 20%;
+  text-align: left;
+  margin: 0;
+  width: 100%;
+}
+
+.post-descr p {
+  margin: 0;
+  color: black;
+  padding-left: 10px;
+}
+
+.post-date {
+  font-size: 0.8rem;
+  color: rgb(199, 199, 199);
+}
+
+.post-img1 {
+  width: 60px;
+  height: 50px;
+  background-color: red;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.recent-post h3 {
+  position: relative;
+  top: -10px;
+  background-color: white;
+  width: 170px;
+  margin: 0 auto;
+}

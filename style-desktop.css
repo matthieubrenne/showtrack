@@ -1,0 +1,10 @@
+@media screen and (min-width: 1081px) {
+  .footer-container {
+    display: flex;
+    width: 900px;
+  }
+
+  .desktop {
+    display: flex;
+  }
+}
