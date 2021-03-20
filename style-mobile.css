@@ -249,7 +249,7 @@ nav a {
 .post-descr {
   margin-left: 20%;
   text-align: left;
-  margin: 0;
+  margin: auto;
   width: 100%;
 }
 
@@ -257,18 +257,51 @@ nav a {
   margin: 0;
   color: black;
   padding-left: 10px;
+  font-size: 0.7rem;
+  font-weight: 900;
 }
 
-.post-date {
-  font-size: 0.8rem;
-  color: rgb(199, 199, 199);
+.post-descr .post-date {
+  font-size: 0.6rem;
+  color: rgb(153, 153, 153);
 }
 
 .post-img1 {
   width: 60px;
   height: 50px;
-  background-color: red;
   background-image: url(./img/img-1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.post-img2 {
+  width: 60px;
+  height: 50px;
+  background-image: url(./img/img-2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.post-img3 {
+  width: 60px;
+  height: 50px;
+  background-image: url(./img/img-3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.post-img4 {
+  width: 60px;
+  height: 50px;
+  background-image: url(./img/img-4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.post-img5 {
+  width: 60px;
+  height: 50px;
+  background-image: url(./img/post-img-2.png);
   background-size: cover;
   background-position: center;
 }
