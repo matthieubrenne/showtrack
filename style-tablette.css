@@ -1,16 +1,32 @@
-@media screen and (min-width: 900px) {
-  .footer-container {
-    display: flex;
-    width: 900px;
-  }
+@media screen and (min-width: 701px) {
 
-  .section {
-    display: flex;
-  }
+    body {
+        margin: 20px;
+    }
 
-  nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
+    .download {
+        background-image: url(./img/pexels-photo-276549-e1518168651468-1.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        margin: 40px 15px;
+        padding: 40px;
+        color: white;
+        font-family: "Lato", sans-serif;
+        height: 300px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .download h2 {
+        font-size: 3.5rem;
+    }
+
+    .download h4 {
+        font-size: 1rem;
+    }
 }
